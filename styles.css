@@ -1,0 +1,144 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.357em;
+}
+p{
+  color: #1572A1;
+}
+h1{
+     margin: 0;
+     padding-top: 130px;
+     font-family: 'Sacramento', cursive;
+     font-size: 5.625em;
+     color: #1572A1;
+     line-height: 2;
+}
+H2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    color: #1572A1;
+    font-weight: normal;
+}
+
+H3{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #1572A1;
+}
+
+H6{
+    margin: auto;
+    font-family: 'Merriweather', serif;
+    color: #1572A1;
+    text-align: left;
+}
+          .right-title{
+            text-align: center;
+          }
+
+          .left-title{
+            text-align: center;
+          }
+
+          .middle-text-top{
+          text-align: left;
+          margin-left: 100px;
+          width: 50%;
+          padding-bottom: 50px;
+          }
+
+          .middle-text-middle{
+          text-align: right;
+          margin-left: 660px;
+          width: 50%;
+          padding-bottom: 50px;
+          }
+
+          .middle-text-bottom{
+          text-align: left;
+          margin-left: 100px;
+          width: 50%;
+          padding-bottom: 100px;
+          }
+
+
+          .top-page{
+            margin: 0;
+            position: relative;
+            background-color: #7FBCD2;
+            height: 800px;
+            width: auto;
+          }
+
+          .middle-page{
+            position: relative;
+            margin-top: 0;
+            padding-top: 50px;
+            background-color: #A4EBF3;
+            height: 800px;
+            width: auto;
+          }
+
+          .bottom-page{
+            margin-top: 0;
+            padding-top: 50px;
+            background-color: #5DA7DB;
+            height: auto;
+            width: auto;
+          }
+
+          .icons{
+            width: 50px;
+            height: 50px;
+          }
+
+            .cloud-top{
+            position: absolute;
+            left: 550px;
+            top: 500px;
+          }
+
+          .cloud-middle{
+            position: absolute;
+            top: 550px;
+            right: 400px;
+          }
+
+          .cloud-bottom{
+            position: absolute;
+            top:600px;
+            left:350px;
+          }
+
+          .mountain{
+            position: absolute;
+            right: 360px;
+            top:400px;
+          }
+
+          .portrait{
+            position: absolute;
+            border-radius: 100%;
+            width: 250px;
+            height: 250px;
+            right: 300px;
+          }
+
+          .work-portrait{
+            position: absolute;
+            border-radius: 100%;
+            width:250px;
+            height: 250px;
+            left:300px;
+            top:280px;
+          }
+
+          .game{
+            position: absolute;
+            border-radius: 100%;
+            width:250px;
+            height: 250px;
+            right:300px;
+            top:520px;
+          }
