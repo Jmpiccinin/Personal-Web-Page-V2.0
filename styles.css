@@ -2,16 +2,16 @@ body{
   margin:0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 1.357rem;
+  font-size: 1.357em;
 }
 p{
   color: #1572A1;
 }
 h1{
      margin: 0;
-     padding-top: 8.125rem;
+     padding-top: 130px;
      font-family: 'Sacramento', cursive;
-     font-size: 5.625rem;
+     font-size: 5.625em;
      color: #1572A1;
      line-height: 2;
 }
@@ -43,23 +43,23 @@ H6{
 
           .middle-text-top{
           text-align: left;
-          margin-left: 6.25rem;
+          margin-left: 100px;
           width: 50%;
-          padding-bottom: 3.125rem;
+          padding-bottom: 50px;
           }
 
           .middle-text-middle{
           text-align: right;
-          margin-left: 41.25rem;
+          margin-left: 660px;
           width: 50%;
-          padding-bottom: 3.125rem;
+          padding-bottom: 50px;
           }
 
           .middle-text-bottom{
           text-align: left;
-          margin-left: 6.25rem;
+          margin-left: 100px;
           width: 50%;
-          padding-bottom: 6.25rem;
+          padding-bottom: 100px;
           }
 
 
@@ -67,78 +67,78 @@ H6{
             margin: 0;
             position: relative;
             background-color: #7FBCD2;
-            height: 50rem;
-            width: auto;
+            height: 800px;
+            width: 1520px;
           }
 
           .middle-page{
             position: relative;
             margin-top: 0;
-            padding-top: 3.125rem;
+            padding-top: 50px;
             background-color: #A4EBF3;
-            height: 50rem;
-            width: auto;
+            height: auto;
+            width: 1520px;
           }
 
           .bottom-page{
             margin-top: 0;
-            padding-top: 3.125rem;
+            padding-top: 50px;
             background-color: #5DA7DB;
             height: auto;
-            width: auto;
+            width: 1520px;
           }
 
           .icons{
-            width: 3.125rem;
-            height: 3.125rem;
+            width: 50px;
+            height: 50px;
           }
 
             .cloud-top{
             position: absolute;
-            left: 34.375rem;
-            top: 34.375rem;
+            left: 550px;
+            top: 500px;
           }
 
           .cloud-middle{
             position: absolute;
-            top: 34.375rem;
-            right: 25rem;
+            top: 550px;
+            right: 400px;
           }
 
           .cloud-bottom{
             position: absolute;
-            top:37.5rem;
-            left:21.875rem;
+            top:600px;
+            left:350px;
           }
 
           .mountain{
             position: absolute;
-            right: 22.5rem;
-            top:25rem;
+            right: 360px;
+            top:400px;
           }
 
           .portrait{
             position: absolute;
             border-radius: 100%;
-            width: 15.625rem;
-            height: 15.625rem;
-            right: 18.75rem;
+            width: 250px;
+            height: 250px;
+            right: 300px;
           }
 
           .work-portrait{
             position: absolute;
             border-radius: 100%;
-            width:15.625rem;
-            height: 15.625rem;
-            left:18.75rem;
-            top:17.5rem;
+            width:250px;
+            height: 250px;
+            left:300px;
+            top:280px;
           }
 
           .game{
             position: absolute;
             border-radius: 100%;
-            width:15.625rem;
-            height: 15.625rem;
-            right:18.75rem;
-            top:32.5rem;
+            width:250px;
+            height: 250px;
+            right:300px;
+            top:520px;
           }
