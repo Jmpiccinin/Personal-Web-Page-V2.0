@@ -1,144 +1,236 @@
 body{
-  margin:0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  font-size: 1.357em;
+    margin:0;
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 1.357em;
+    line-height: 1;
+    
 }
-p{
-  color: #1572A1;
-}
+
 h1{
-     margin: 0;
-     padding-top: 130px;
-     font-family: 'Sacramento', cursive;
-     font-size: 5.625em;
-     color: #1572A1;
-     line-height: 2;
+    margin: 0;
+    padding-top: 120px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #1572A1;
+    line-height: 2;
 }
 H2{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2.5rem;
-    color: #1572A1;
-    font-weight: normal;
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-size: 2rem;
+   color: #1572A1;
+   font-weight: normal;
+   
 }
 
 H3{
-  font-family: 'Montserrat Alternates', sans-serif;
-  color: #1572A1;
+ font-family: 'Montserrat Alternates', sans-serif;
+ color: #1572A1;
+ text-align: center;
+ border:0;
+ 
 }
+
+H4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #1572A1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+   }
 
 H6{
-    margin: auto;
-    font-family: 'Merriweather', serif;
-    color: #1572A1;
-    text-align: left;
+   margin: auto;
+   font-family: 'Merriweather', serif;
+   color: #1572A1;
+   text-align: left;
 }
-          .right-title{
-            text-align: center;
-          }
 
-          .left-title{
-            text-align: center;
-          }
+p{
+    text-align: justify;
+    margin: auto;
+   font-family: 'Merriweather', serif;
+   color: #1572A1;
+}
+   
+ 
 
-          .middle-text-top{
-          text-align: left;
-          margin-left: 100px;
-          width: 50%;
-          padding-bottom: 50px;
-          }
+.top-page{
+    width: 1520px;
+    height: 800px;
+    background-color: #7FBCD2;
+    position: relative;
+    left:0;
+    top:0;
+    text-align: center;
+    margin: 0;
+    border: 0;
+}
 
-          .middle-text-middle{
-          text-align: right;
-          margin-left: 660px;
-          width: 50%;
-          padding-bottom: 50px;
-          }
+.middle-page{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;   
+    background-color: #A4EBF3;
+    height: 800px;
+    width: 1520px;
+}
 
-          .middle-text-bottom{
-          text-align: left;
-          margin-left: 100px;
-          width: 50%;
-          padding-bottom: 100px;
-          }
+.up-left-top{
+    position:absolute;
+    top:25px;
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+    text-align: center;
+    text-indent: 50px;
+}
+
+.up-right-top{
+    position:absolute;
+    top:25px;
+    left:750px;
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+
+}
+
+.middle-left{
+    position:absolute;
+    left:0;
+    top:275px;
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+}
+
+.middle-right{
+    position:absolute;
+    left:750px; 
+    top:275px;   
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+    text-align: center;
+    text-indent: 50px;
+
+}
+
+.bottom-left{
+    position:absolute;
+    left:0; 
+    top:525px;   
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+    text-align: center;
+    text-indent: 50px;
+
+}
+
+.bottom-right{
+    position:absolute;
+    left:750px;
+    top:500px;
+    height: 250px;
+    width: 750px;
+    display: inline-block;
+}
 
 
-          .top-page{
-            margin: 0;
-            position: relative;
-            background-color: #7FBCD2;
-            height: 800px;
-            width: 1520px;
-          }
+.aling-middle-texts{
+    padding-right: 50px;
+    padding-left: 50px;
+}
 
-          .middle-page{
-            position: relative;
-            margin-top: 0;
-            padding-top: 50px;
-            background-color: #A4EBF3;
-            height: auto;
-            width: 1520px;
-          }
+.bottom-page{
+margin-top:0;
+position: absolute;
+width: 1520px;
+height: auto;
+background-color: #5DA7DB;
+top:1600px;
+left:0;
+text-align: center;
 
-          .bottom-page{
-            margin-top: 0;
-            padding-top: 50px;
-            background-color: #5DA7DB;
-            height: auto;
-            width: 1520px;
-          }
+}
 
-          .icons{
-            width: 50px;
-            height: 50px;
-          }
+/* ###################### Single Classes ################################# */
 
-            .cloud-top{
-            position: absolute;
-            left: 550px;
-            top: 500px;
-          }
 
-          .cloud-middle{
-            position: absolute;
-            top: 550px;
-            right: 400px;
-          }
+.mountain-img{
+    width: 800px;
+    height: 400px;
+    bottom:0;
+    line-height: 0;
+    border-bottom: 0;
+    position: absolute;
+    right: 360px;
+}
 
-          .cloud-bottom{
-            position: absolute;
-            top:600px;
-            left:350px;
-          }
+.cloud-01{
+    position: absolute;
+    left:300px;
+    top:500px;
+}
 
-          .mountain{
-            position: absolute;
-            right: 360px;
-            top:400px;
-          }
+.cloud-02{
+    position: absolute;
+    left:200px;
+    top:300px;
+}
+.cloud-03{
+    position: absolute;
+    right: 230px;
+    top:350px;
+}
 
-          .portrait{
-            position: absolute;
-            border-radius: 100%;
-            width: 250px;
-            height: 250px;
-            right: 300px;
-          }
+.cloud-04{
+    position: absolute;
+    right: 430px;
+    top:550px;
+}
 
-          .work-portrait{
-            position: absolute;
-            border-radius: 100%;
-            width:250px;
-            height: 250px;
-            left:300px;
-            top:280px;
-          }
+.portrait{
 
-          .game{
-            position: absolute;
-            border-radius: 100%;
-            width:250px;
-            height: 250px;
-            right:300px;
-            top:520px;
-          }
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    left:635px;
+    top:-80px;
+}
+
+.circle-img-up{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    left:250px;
+    position: relative;
+}
+
+.circle-img-middle{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    left:250px;
+    position: relative;
+
+}
+
+.circle-img-bottom{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    left:250px;
+    position: relative;
+
+}
+
+.icons{
+    height: 80px;
+    width: 80px;
+    border-radius:10%;
+}
