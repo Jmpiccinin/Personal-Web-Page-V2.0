@@ -55,7 +55,7 @@ p{
  
 
 .top-page{
-    width: 1520px;
+    width: auto;
     height: 800px;
     background-color: #7FBCD2;
     position: relative;
@@ -73,7 +73,7 @@ p{
     padding: 0;   
     background-color: #A4EBF3;
     height: 800px;
-    width: 1520px;
+    width: auto;
 }
 
 .up-left-top{
@@ -147,7 +147,7 @@ p{
 .bottom-page{
 margin-top:0;
 position: absolute;
-width: 1520px;
+width: auto;
 height: auto;
 background-color: #5DA7DB;
 top:1600px;
